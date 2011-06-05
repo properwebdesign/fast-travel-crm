@@ -28,6 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intranet", "Intranet", "{99
 		FastTravel.Libs\Ext.Net.xml = FastTravel.Libs\Ext.Net.xml
 		FastTravel.Libs\Newtonsoft.Json.dll = FastTravel.Libs\Newtonsoft.Json.dll
 		FastTravel.Libs\Newtonsoft.Json.xml = FastTravel.Libs\Newtonsoft.Json.xml
+		FastTravel.Libs\StructureMap.dll = FastTravel.Libs\StructureMap.dll
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTravel.Intranet.Utilites", "FastTravel.Intranet.Utilites\FastTravel.Intranet.Utilites.csproj", "{332B2972-FF98-45FF-84E3-A81131AD28E6}"
