@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 
@@ -22,7 +23,6 @@ namespace WebSer
         public List<Hotel> GetHotels()
         {
             return context.Hotels.OrderBy(h => h.Name).ToList();
-            //return this.context.Hotels.OrderBy(h => h.Name).ToList();
         }
 
     }
