@@ -33,11 +33,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intranet", "Intranet", "{99
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTravel.Intranet.Utilites", "FastTravel.Intranet.Utilites\FastTravel.Intranet.Utilites.csproj", "{332B2972-FF98-45FF-84E3-A81131AD28E6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{CF2F694B-2690-4B10-9837-96FBC81C7FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTravel.Internet.WebSer", "WebSer\FastTravel.Internet.WebSer.csproj", "{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}"
+EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -107,6 +107,16 @@ Global
 		{332B2972-FF98-45FF-84E3-A81131AD28E6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{332B2972-FF98-45FF-84E3-A81131AD28E6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{332B2972-FF98-45FF-84E3-A81131AD28E6}.Release|x86.ActiveCfg = Release|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +128,12 @@ Global
 		{CD799D78-CF33-41CC-8AE7-369BAA753D2E} = {EA36E81C-6188-4FC8-AE62-C3BB163D49FF}
 		{6C7CCCBF-765D-4B23-B156-D767B4A0A61A} = {EA36E81C-6188-4FC8-AE62-C3BB163D49FF}
 		{332B2972-FF98-45FF-84E3-A81131AD28E6} = {EA36E81C-6188-4FC8-AE62-C3BB163D49FF}
+		{CF2F694B-2690-4B10-9837-96FBC81C7FF7} = {F2802F85-AB44-427E-A027-F50A52E8E8D6}
 		{999B1BB0-3BC7-4B56-9D1F-9CF226C90E1C} = {7D286084-B2F8-4DDA-8A88-945CCBF284D1}
+		{42C8A93D-FFD1-4854-8DA5-C22ECAB17120} = {CF2F694B-2690-4B10-9837-96FBC81C7FF7}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FastTravelModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="FastTravelModelStoreContainer">
+          <EntitySet Name="Hotel" EntityType="FastTravelModel.Store.Hotel" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_RelatredHotel" Association="FastTravelModel.Store.FK_RelatredHotel">
+            <End Role="Hotel" EntitySet="Hotel" />
+            <End Role="Hotel1" EntitySet="Hotel" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Hotel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GUID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="IsArchive" Type="bit" Nullable="false" />
+          <Property Name="RestorationYear" Type="int" />
+          <Property Name="BuildYear" Type="int" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="RoomsCount" Type="int" Nullable="false" />
+          <Property Name="RoomsCategory" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="AddedDate" Type="datetime" Nullable="false" />
+          <Property Name="StarLevel" Type="int" Nullable="false" />
+          <Property Name="FloorCount" Type="int" Nullable="false" />
+          <Property Name="Resort_ID" Type="int" />
+          <Property Name="NearestHotel_ID" Type="int" />
+        </EntityType>
+        <Association Name="FK_RelatredHotel">
+          <End Role="Hotel" Type="FastTravelModel.Store.Hotel" Multiplicity="0..1" />
+          <End Role="Hotel1" Type="FastTravelModel.Store.Hotel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotel">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Hotel1">
+              <PropertyRef Name="NearestHotel_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FastTravelModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="FastTravelEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Hotels" EntityType="FastTravelModel.Hotel" />
+          <AssociationSet Name="FK_RelatredHotel" Association="FastTravelModel.FK_RelatredHotel">
+            <End Role="Hotel" EntitySet="Hotels" />
+            <End Role="Hotel1" EntitySet="Hotels" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Hotel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GUID" Type="Guid" Nullable="false" />
+          <Property Name="IsArchive" Type="Boolean" Nullable="false" />
+          <Property Name="RestorationYear" Type="Int32" />
+          <Property Name="BuildYear" Type="Int32" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="RoomsCount" Type="Int32" Nullable="false" />
+          <Property Name="RoomsCategory" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AddedDate" Type="DateTime" Nullable="false" />
+          <Property Name="StarLevel" Type="Int32" Nullable="false" />
+          <Property Name="FloorCount" Type="Int32" Nullable="false" />
+          <Property Name="Resort_ID" Type="Int32" />
+          <Property Name="NearestHotel_ID" Type="Int32" />
+          <NavigationProperty Name="Hotel1" Relationship="FastTravelModel.FK_RelatredHotel" FromRole="Hotel" ToRole="Hotel1" />
+          <NavigationProperty Name="Hotel2" Relationship="FastTravelModel.FK_RelatredHotel" FromRole="Hotel1" ToRole="Hotel" />
+        </EntityType>
+        <Association Name="FK_RelatredHotel">
+          <End Role="Hotel" Type="FastTravelModel.Hotel" Multiplicity="0..1" />
+          <End Role="Hotel1" Type="FastTravelModel.Hotel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hotel">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Hotel1">
+              <PropertyRef Name="NearestHotel_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FastTravelModelStoreContainer" CdmEntityContainer="FastTravelEntities">
+          <EntitySetMapping Name="Hotels"><EntityTypeMapping TypeName="FastTravelModel.Hotel"><MappingFragment StoreEntitySet="Hotel">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="GUID" ColumnName="GUID" />
+            <ScalarProperty Name="IsArchive" ColumnName="IsArchive" />
+            <ScalarProperty Name="RestorationYear" ColumnName="RestorationYear" />
+            <ScalarProperty Name="BuildYear" ColumnName="BuildYear" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="RoomsCount" ColumnName="RoomsCount" />
+            <ScalarProperty Name="RoomsCategory" ColumnName="RoomsCategory" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+            <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+            <ScalarProperty Name="StarLevel" ColumnName="StarLevel" />
+            <ScalarProperty Name="FloorCount" ColumnName="FloorCount" />
+            <ScalarProperty Name="Resort_ID" ColumnName="Resort_ID" />
+            <ScalarProperty Name="NearestHotel_ID" ColumnName="NearestHotel_ID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model">
+        <EntityTypeShape EntityType="FastTravelModel.Hotel" Width="1.625" PointX="1.125" PointY="0.75" Height="3.5644742838541656" IsExpanded="true" />
+        <AssociationConnector Association="FastTravelModel.FK_RelatredHotel" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.7012500000000002" PointY="4.3144742838541656" />
+          <ConnectorPoint PointX="1.7012500000000002" PointY="4.5644742838541656" />
+          <ConnectorPoint PointX="2.185" PointY="4.5644742838541656" />
+          <ConnectorPoint PointX="2.185" PointY="4.3144742838541656" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
