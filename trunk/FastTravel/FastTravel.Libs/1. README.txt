@@ -1,6 +1,6 @@
 ﻿Product      : Ext.NET Community
-Version      : 1.0.0 RC2
-Last Updated : 2011-05-31
+Version      : 1.0.0
+Last Updated : 2011-06-15
 
 
 --------------------------------------------------------------------------
@@ -18,8 +18,8 @@ V.    CREDITS
    I. ADD TO VISUAL STUDIO TOOLBOX INSTRUCTIONS
 --------------------------------------------------------------------------
 
-The following steps are required to manually install the controls into 
-your Visual Studio or Visual Web Developer Express Toolbox. 
+The following steps are required to manually install the controls into your 
+Visual Studio (2008 or 2010) or Visual Web Developer (2008 or 210) Express Toolbox. 
 		
 	1.  Open Visual Studio or Visual Web Developer Express.
 
@@ -42,7 +42,11 @@ your Visual Studio or Visual Web Developer Express Toolbox.
 	    button.
 
 	8.  Navigate to and select the Ext.Net.dll file, choose open, then 
-	    select the Ext.NET.dll from download .zip package. 
+	    select the "Ext.NET.dll" from the extracted download .zip package.
+		
+		Ext.NET can always be downloaded from the following location, see
+		
+		http://www.ext.net/download/ 
 			
 	9.  The component items should now be added to the list and 
 	    pre-checked. You can confirm by sorting the list by "Namespace" 
@@ -51,7 +55,7 @@ your Visual Studio or Visual Web Developer Express Toolbox.
 	10. Click "OK". The icons should be added to your ToolBox. You should 
 	    now be able to drag/drop a Ext.NET component onto your WebForm.
 	
-	11. Enjoy.
+		Enjoy.
 
 
 --------------------------------------------------------------------------
@@ -176,7 +180,7 @@ scriptAdapter : ScriptAdapter
 	Gets or Sets the current script Adapter.     
 	Default is "Ext". Options include [Ext|jQuery|Prototype|YUI]
 
-removeViewState : boolean
+disableViewState : boolean
 	True to completely remove the __VIEWSTATE field from the client. 
 	If true, the VIEWSTATE is not sent to, nor returned from the client. 
 	Default is "false". Options include [true|false]
@@ -239,7 +243,7 @@ quickTips : boolean
                                
 --------------------------------------------------------------------------
 	
-          Copyright 2011 Ext.NET, Inc., All rights reserved.
+        Copyright (c) 2011, Ext.NET, Inc. All rights reserved.
 
                            Ext.NET, Inc.
                          support@ext.net

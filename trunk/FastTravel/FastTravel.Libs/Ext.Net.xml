@@ -666,28 +666,10 @@
             into a Record object using as a subscript, the mapping property of the field
             definition if it exists, or the field's ordinal position in the definition.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.JsonReader">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Data reader class to create an Array of Ext.data.Record objects from a JSON response based on mappings in a provided Ext.data.Record constructor.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.DataReader">
@@ -697,15 +679,6 @@
             for use by an Store. This class is intended to be extended and should
             not be created directly. For existing implementations, see ArrayReader,
             JsonReader and XmlReader.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.StateManagedItem">
@@ -1239,26 +1212,8 @@
             <summary>
             Provides the ability to execute one or more arbitrary tasks in a multithreaded manner.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Observable">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             Abstract base class that provides a common interface for publishing events
             </summary>
@@ -2669,7 +2624,7 @@
         </member>
         <member name="P:Ext.Net.Observable.XType">
             <summary>
-            
+            The registered xtype to create. This config option is not used when passing a config object into a constructor. This config option is used only when lazy instantiation is being used, and a child item of a Container is being specified not as a fully instantiated Component, but as a Component config object. The xtype will be looked up at render time up to determine what type of child Component to create.
             </summary>
         </member>
         <member name="P:Ext.Net.Observable.RenderXType">
@@ -3048,28 +3003,10 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BoxComponentBase">
             <summary>
             Base Class for any visual Component that uses a box content Container.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.Component">
@@ -3080,16 +3017,7 @@
             
             </summary>
             <summary>
-            
-            </summary>
-            <summary>
             Base Class for all Ext.Net Web Controls.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.IContent">
@@ -3375,7 +3303,7 @@
         </member>
         <member name="P:Ext.Net.Component.XType">
             <summary>
-            
+            The registered xtype to create. This config option is not used when passing a config object into a constructor. This config option is used only when lazy instantiation is being used, and a child item of a Container is being specified not as a fully instantiated Component, but as a Component config object. The xtype will be looked up at render time up to determine what type of child Component to create.
             </summary>
         </member>
         <member name="P:Ext.Net.Component.Bin">
@@ -3467,9 +3395,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.Component.DefaultAnchor">
-            <new date="2010-02-12" owner="geoff" key="Component">
-            Added new .DefaultAnchor property to Component. The .DefaultAnchor is applied as the .Anchor config item to all child Items during render.
-            </new>
             <summary>
             The DefaultAnchor is applied as the Anchor config item to all child Items during render.
             </summary>
@@ -5339,40 +5264,13 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Plugin">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Base Class for all Component Plugins. Add plugin to a Component using the .Plugins property or &lt;Plugins> node.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.LazyObservable">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -5696,9 +5594,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.SingleItemCollection`1">
             <summary>
@@ -5752,9 +5647,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreeNodeDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -5848,9 +5740,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TreeEditorFilter.ConfigOptions">
             <summary>
@@ -5874,25 +5763,10 @@
         </member>
         <member name="T:Ext.Net.ToolbarHtmlElement">
             <summary>
-            
-            </summary>
-            <summary>
             Any standard HTML element.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.ToolbarItem">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -6036,27 +5910,13 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ContainerDirectEvents">
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BoxComponentDirectEvents">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.ComponentBaseDirectEvents">
             <summary>
             
             </summary>
@@ -6225,28 +6085,10 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ContainerBase">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Base Class for any visual Component that uses a box content Container.
-            </summary>
-            <summary>
-            
             </summary>
             <summary>
             
@@ -6454,9 +6296,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.ContainerBase.AutoDoLayout">
-            <new date="2010-02-12" owner="geoff" key="Container">
-            Added new AutoDoLayout property to Container. If .AutoDoLayout is true, the .doLayout() function will be called in the afterrender event. Default is false.
-            </new>
             <summary>
             If true .doLayout() is called after render. Default is false.
             </summary>
@@ -7096,15 +6935,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ListItem.#ctor(Ext.Net.ListItem.Config)">
             <summary>
@@ -7219,9 +7049,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.LayoutConfig.#ctor">
             <summary>
@@ -7258,9 +7085,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ComponentListeners">
             <summary>
@@ -7294,30 +7118,12 @@
         </member>
         <member name="T:Ext.Net.Hidden">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A basic hidden field for storing hidden values in forms that need to be passed in the form submit. Can be used as a direct replacement for the traditional &lt;asp:Hidden> Web Control.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.Field">
             <summary>
             Base Class for Form Fields that provides default event handling, sizing, value handling and other functionality.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.IAutoPostBack">
@@ -8359,14 +8165,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.PanelDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -8685,22 +8485,13 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.FxConfig">
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ElementFxConfig">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -8804,14 +8595,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.MenuListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -8820,19 +8605,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BoxComponentListeners">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.ComponentBaseListeners">
             <summary>
             
             </summary>
@@ -9011,14 +8785,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.MenuDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -9062,14 +8830,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TriggerFieldListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -9078,14 +8840,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.FieldListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -9216,15 +8972,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ButtonBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -10053,14 +9800,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BaseListener">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -10222,14 +9963,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.GridFilter">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -10359,9 +10094,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DomObject">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -10505,28 +10237,10 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Panel">
             <summary>
-            
-            </summary>
-            <summary>
             Panel is a container that has specific functionality and structural components that make it the perfect building block for application-oriented user interfaces.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.PanelBase">
@@ -10535,15 +10249,6 @@
             </summary>
             <summary>
             Base abstract Panel class.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.PanelBase.#ctor">
@@ -11764,34 +11469,13 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TreePanel">
             <summary>
             The TreePanel provides tree-structured UI representation of tree-structured data.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TreePanelBase">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -12834,26 +12518,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.GridCommand">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -13212,15 +12878,6 @@
             <summary>
             Container for a group of buttons.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ButtonGroup.#ctor">
             <summary>
@@ -13361,9 +13018,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.PanelListeners.Activate">
             <summary>
@@ -13441,11 +13095,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Listener">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.ComponentListener">
             <summary>
             
             </summary>
@@ -13560,9 +13209,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.RowEditorDirectEvents.AfterEdit">
             <summary>
@@ -13590,9 +13236,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.NodeDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -13643,9 +13286,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ColumnDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -13807,28 +13447,10 @@
         </member>
         <member name="T:Ext.Net.Window">
             <summary>
-            
-            </summary>
-            <summary>
             A specialized panel intended for use as an application window. Windows are floated and draggable by default, and also provide specific behavior like the ability to maximize and restore (with an event for minimizing, since the minimize behavior is application-specific). Windows can also be linked to a Ext.WindowGroup or managed by the Ext.WindowManager to provide grouping, activation, to front/back and other application-specific behavior.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.WindowBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -14711,30 +14333,12 @@
         </member>
         <member name="T:Ext.Net.Viewport">
             <summary>
-            
-            </summary>
-            <summary>
             A specialized content Container representing the viewable application area (the browser viewport).
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.ViewportBase">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A specialized container representing the viewable application area (the browser viewport).
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ViewportBase.OnPreRender(System.EventArgs)">
@@ -14749,7 +14353,7 @@
         </member>
         <member name="P:Ext.Net.ViewportBase.XType">
             <summary>
-            
+            The registered xtype to create. This config option is not used when passing a config object into a constructor. This config option is used only when lazy instantiation is being used, and a child item of a Container is being specified not as a fully instantiated Component, but as a Component config object. The xtype will be looked up at render time up to determine what type of child Component to create.
             </summary>
         </member>
         <member name="P:Ext.Net.ViewportBase.InstanceOf">
@@ -14824,7 +14428,7 @@
         </member>
         <member name="M:Ext.Net.Viewport.#ctor">
             <summary>
-            
+            Create a new Viewport
             </summary>
         </member>
         <member name="M:Ext.Net.Viewport.ToBuilder">
@@ -14893,15 +14497,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreeGrid">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -15126,12 +14721,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.TabMenu.#ctor(Ext.Net.TabMenu.Config)">
             <summary>
@@ -15202,15 +14791,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SplitButtonBase.ConfigOptions">
             <summary>
@@ -15266,26 +14846,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BaseParameter">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -15574,15 +15136,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Portal.#ctor(Ext.Net.Portal.Config)">
             <summary>
@@ -15681,30 +15234,12 @@
         </member>
         <member name="T:Ext.Net.NumberFieldBase">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Base class for Numeric field.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.TextFieldBase">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Base Class for all Text Field Web Controls.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TextFieldBase.OnTextChanged(System.EventArgs)">
@@ -16528,15 +16063,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.MenuCommand.#ctor(Ext.Net.MenuCommand.Config)">
             <summary>
@@ -16807,26 +16333,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.LayoutItem">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -16948,30 +16456,12 @@
         </member>
         <member name="T:Ext.Net.ImageButton">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Simple ImageButton class
             </summary>
         </member>
         <member name="T:Ext.Net.Button">
             <summary>
             Simple Button class
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Button.#ctor">
@@ -17315,22 +16805,10 @@
         </member>
         <member name="T:Ext.Net.GroupingView">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Adds the ability for single level grouping to the grid.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.GridView">
-            <summary>
-            
-            </summary>
              <summary>
              This class encapsulates the user interface of an Ext.grid.GridPanel. Methods of this 
              class may be used to access user interface elements to enable special display effects. 
@@ -17339,12 +16817,6 @@
              This class does not provide ways to manipulate the underlying data. The data model of a 
              Grid is held in an Ext.data.Store.
              </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.GridView.#ctor">
             <summary>
@@ -18257,28 +17729,10 @@
         </member>
         <member name="T:Ext.Net.FormPanel">
             <summary>
-            
-            </summary>
-            <summary>
             Standard form container.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.FormPanelBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -18729,40 +18183,9 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.DropDownFieldBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.BaseTriggerField">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:Ext.Net.TriggerFieldBase">
             <summary>
             Provides a convenient wrapper for TextFields that adds a clickable trigger button (looks like a combobox by default). The trigger has no default action, so you must assign a function to implement the trigger click handler by overriding onTriggerClick. You can create a TriggerField directly, as it renders exactly like a combobox for which you can provide a custom implementation.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TriggerFieldBase.OnPreRender(System.EventArgs)">
@@ -19187,15 +18610,6 @@
         </member>
         <member name="T:Ext.Net.DesktopWindow">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A specialized panel intended for use as an application window. Windows are floated and draggable by default, and also provide specific behavior like the ability to maximize and restore (with an event for minimizing, since the minimize behavior is application-specific). Windows can also be linked to a Ext.WindowGroup or managed by the Ext.WindowManager to provide grouping, activation, to front/back and other application-specific behavior.
             </summary>
         </member>
@@ -19369,15 +18783,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.CommandText.#ctor(Ext.Net.CommandText.Config)">
             <summary>
@@ -19463,15 +18868,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.CommandFill.#ctor(Ext.Net.CommandFill.Config)">
             <summary>
@@ -19540,28 +18936,10 @@
         </member>
         <member name="T:Ext.Net.CheckboxGroup">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A grouping container for Ext.form.Checkbox controls.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.CheckboxGroupBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -19868,16 +19246,7 @@
         </member>
         <member name="T:Ext.Net.BufferView">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A custom GridView which renders rows on an as-needed basis.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.BufferView.#ctor(Ext.Net.BufferView.Config)">
@@ -20027,44 +19396,17 @@
         </member>
         <member name="T:Ext.Net.BoxLayout">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Base Class for HBoxLayout and VBoxLayout Classes. Generally it should not need to be used directly.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.ContainerLayout">
             <summary>
-            
-            </summary>
-            <summary>
             Every layout is composed of one or more Ext.Container elements internally, and ContainerLayout provides the basic foundation for all other layout classes in Ext. It is a non-visual class that simply provides the base logic required for a Container to function as a layout. 
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.Layout">
             <summary>
             Every layout is composed of one or more Ext.Container elements internally, and Layout provides the basic foundation for all other layout classes in Ext. It is a non-visual class that simply provides the base logic required for a Container to function as a layout.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="P:Ext.Net.Layout.XType">
@@ -20342,20 +19684,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ListViewColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -20561,9 +19891,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GroupTabPanelListeners.ConfigOptions">
             <summary>
@@ -20582,19 +19909,10 @@
         </member>
         <member name="T:Ext.Net.GroupStore">
             <summary>
-            
-            </summary>
-            <summary>
             This is an calendar store that enables the events to have different colors based on CalendarId.
             </summary>
         </member>
         <member name="T:Ext.Net.Store">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
              <summary>
              The Store class encapsulates a client side cache of Record objects which provide
              input data for Components such as the GridPanel, the ComboBox, or the DataView
@@ -20608,34 +19926,13 @@
              instances from the data object. These Records are cached and made available through
              accessor functions.
              </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.StoreDataBound">
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.StoreBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -22011,9 +21308,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ColumnLayoutConfig.#ctor(System.Boolean,System.Boolean,System.Int32,System.Int32,System.Boolean,System.Boolean,System.String)">
             <summary>
@@ -22057,22 +21351,10 @@
         </member>
         <member name="T:Ext.Net.CalendarPanel">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             This is the default container for Ext calendar views. It supports day, week and month views as well as a built-in event edit form. The only requirement for displaying a calendar is passing in a valid calendarStore config containing records of type EventRecord. In order to make the calendar interactive (enable editing, drag/drop, etc.) you can handle any of the various events fired by the underlying views and exposed through the CalendarPanel.
             </summary>
         </member>
         <member name="T:Ext.Net.CalendarPanelBase">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -22304,16 +21586,7 @@
         </member>
         <member name="T:Ext.Net.TriggerField">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Provides a convenient wrapper for TextFields that adds a clickable trigger button (looks like a combobox by default).
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TriggerField.ToBuilder">
@@ -25093,13 +24366,7 @@
         </member>
         <member name="T:Ext.Net.ToolbarSeparator">
             <summary>
-            
-            </summary>
-            <summary>
             A simple class that adds a vertical separator bar between toolbar items.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ToolbarSeparator.ToBuilder">
@@ -25168,15 +24435,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Tip">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -25322,15 +24580,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ColorPalette">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             Simple color palette class for choosing colors.
             </summary>
@@ -25617,16 +24866,7 @@
         </member>
         <member name="T:Ext.Net.ColorMenu">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A menu containing a Ext.menu.ColorItem component (which provides a basic color picker).
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ColorMenu.ToBuilder">
@@ -25736,15 +24976,6 @@
         </member>
         <member name="T:Ext.Net.BoxComponent">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Base Class for any visual Component that uses a box content Container.
             </summary>
         </member>
@@ -25842,9 +25073,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.TableLayoutConfig.#ctor(System.Int32,Ext.Net.DomObject,System.Boolean,System.String)">
             <summary>
@@ -25868,9 +25096,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.AccordionLayoutConfig">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -25935,11 +25160,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.GridFiltersDirectEvents">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.GridFiltersDirectEvents.FilterUpdate">
             <summary>
             
@@ -25978,9 +25198,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ElementListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -26458,15 +25675,6 @@
         <member name="T:Ext.Net.AccordionLayout">
             <summary>
             This is a base class for layouts that contain a single items that automatically expands to fill the layout's content Container. This class is intended to be extended or created via the layout:'fit' Ext.Container.layout config, and should generally not need to be created directly via the new keyword. FitLayout does not have any direct config options (other than inherited ones). To fit a panel to a content Container using FitLayout, simply set layout:'fit' on the content Container and add a single panel to it. If the content Container has multiple panels, only the first one will be displayed.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.AccordionLayout.#ctor">
@@ -35470,16 +34678,6 @@
             
             </summary>
         </member>
-        <member name="M:Ext.Net.PanelActionList.AddPadding">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Ext.Net.PanelActionList.RemovePadding">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.PanelActionList.GetSortedActionItems">
             <summary>
             
@@ -35516,11 +34714,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.PanelActionList.Width">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:Ext.Net.PanelActionList.BodyStyle">
             <summary>
             
             </summary>
@@ -35666,11 +34859,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.Tool">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.Tool.#ctor">
             <summary>
             
@@ -35755,9 +34943,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SimpleToolTip.Title">
             <summary>
@@ -35795,9 +34980,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreeLoaderBase">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -35866,9 +35048,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.TreeLoaderCollection.#ctor">
             <summary>
@@ -35930,26 +35109,8 @@
             <summary>
             A specialized toolbar that is bound to a Ext.data.Store and provides automatic paging controls.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ToolbarBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -36402,9 +35563,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SelectionModelCollection.Primary">
             <summary>
@@ -36528,15 +35686,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ColumnBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -37000,9 +36149,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.LayoutConfigCollection.#ctor">
             <summary>
@@ -37080,9 +36226,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.SingleItemStateCollection`1">
             <summary>
@@ -37133,22 +36276,13 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TreeNodeBase">
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Node">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -37429,15 +36563,6 @@
         </member>
         <member name="T:Ext.Net.Toolbar">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Basic Toolbar class. Toolbar elements can be created explicitly via their constructors, or implicitly via their xtypes. Some items also have shortcut strings for creation.
             </summary>
         </member>
@@ -37535,14 +36660,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ButtonDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -37603,15 +36722,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.SplitButton">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             A split button that provides a built-in dropdown arrow that can fire an event separately from the default click event of the button. Typically this would be used to display a dropdown menu that provides additional options to the primary button action, but any custom handler can provide the arrowclick implementation.
             </summary>
@@ -37708,28 +36818,10 @@
         </member>
         <member name="T:Ext.Net.Slider">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Slider which supports vertical or horizontal orientation, keyboard adjustments, configurable snapping, axis clicking and animation.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.SliderBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -38120,9 +37212,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ShiftConfig.ConfigOptions">
             <summary>
@@ -38155,15 +37244,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.SelectedCell">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -38307,28 +37387,10 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.LoadMask">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A simple utility class for generically masking elements while loading data. If the element being masked has an underlying Ext.data.Store, the masking will be automatically synchronized with the store's loading process and the mask element will be cached for reuse. For all other elements, this mask will replace the element's UpdateOptions load indicator and will be destroyed after the initial load.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.LoadMask.ToBuilder">
@@ -38535,9 +37597,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ProgressBarDirectEvents.ConfigOptions">
             <summary>
@@ -38553,26 +37612,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Column">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             An individual column's config object defines the header string, the Record field
             the column draws its data from, an optional rendering function to provide customized
@@ -38801,9 +37842,6 @@
         </member>
         <member name="T:Ext.Net.MaskConfig">
             <summary>
-            
-            </summary>
-            <summary>
             A config object containing any or all of the following properties. If this object is not specified the status will be cleared using the defaults.
             </summary>
         </member>
@@ -38844,16 +37882,7 @@
         </member>
         <member name="T:Ext.Net.Label">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Basic Label field.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Label.#ctor(Ext.Net.Label.Config)">
@@ -39128,16 +38157,7 @@
         </member>
         <member name="T:Ext.Net.History">
             <summary>
-            
-            </summary>
-            <summary>
             History management component that allows you to register arbitrary tokens that signify application history state on navigation actions.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.IVirtual">
@@ -39327,15 +38347,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.HeaderColumn.#ctor(Ext.Net.HeaderColumn.Config)">
             <summary>
@@ -39476,9 +38487,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GridViewCollection.ConfigOptions">
             <summary>
@@ -39491,9 +38499,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DefaultSelectionModelDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -39515,22 +38520,10 @@
         </member>
         <member name="T:Ext.Net.ComboBox">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A combobox control with support for autocomplete, remote-loading, paging and many other features.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.ComboBoxBaseSingle`1">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -39538,15 +38531,6 @@
         <member name="T:Ext.Net.ComboBoxBase`1">
             <summary>
             A combobox control with support for autocomplete, remote-loading, paging and many other features.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ComboBoxBase`1.OnBeforeClientInitHandler">
@@ -40662,15 +39646,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ColumnModel.#ctor">
             <summary>
@@ -41066,16 +40041,7 @@
         </member>
         <member name="T:Ext.Net.Anchor">
             <summary>
-            
-            </summary>
-            <summary>
             Tells the layout how an item should be anchored to the container. items added to an AnchorLayout accept an anchoring-specific config property of anchor which is a string containing two values: the horizontal anchor value and the vertical anchor value (for example, '100% 50%').
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Anchor.#ctor">
@@ -41202,9 +40168,6 @@
             <summary>
             Plugin that adds the ability to rapidly edit full rows in a grid.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.RowEditor.StartEditing(System.Int32)">
             <summary>
@@ -41322,9 +40285,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GridPanelMaintainScrollPositionOnRefresh.Resources">
             <summary>
@@ -41367,15 +40327,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.LayoutColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -41461,15 +40412,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Cell">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -41603,14 +40545,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TriggerFieldDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -41619,14 +40555,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.FieldDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -41760,9 +40690,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Response.#ctor">
             <summary>
@@ -41816,16 +40743,7 @@
         </member>
         <member name="T:Ext.Net.ToolbarTextItem">
             <summary>
-            
-            </summary>
-            <summary>
             A simple class that renders text directly into a toolbar.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ToolbarTextItem.#ctor(Ext.Net.ToolbarTextItem.Config)">
@@ -41940,13 +40858,7 @@
         </member>
         <member name="T:Ext.Net.ToolbarSpacer">
             <summary>
-            
-            </summary>
-            <summary>
             A simple element that adds extra horizontal space between items in a toolbar.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ToolbarSpacer.#ctor(Ext.Net.ToolbarSpacer.Config)">
@@ -42026,16 +40938,7 @@
         </member>
         <member name="T:Ext.Net.TabStrip">
             <summary>
-            
-            </summary>
-            <summary>
             A component which renders tabs similar to a TabPanel and can toggle visibility of other items.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TabStrip.#ctor(Ext.Net.TabStrip.Config)">
@@ -42562,28 +41465,10 @@
         </member>
         <member name="T:Ext.Net.MenuTextItem">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Adds a static text string to a menu, usually used as either a heading or group separator.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.BaseMenuItem">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -42841,16 +41726,7 @@
         </member>
         <member name="T:Ext.Net.Menu">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A menu object. This is the container to which you add all other menu items. Menu can also serve as a base class when you want a specialized menu based off of another component.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Menu.#ctor(Ext.Net.Menu.Config)">
@@ -42944,15 +41820,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.HtmlEditor">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             Provides a lightweight HTML Editor component. NOTE: HtmlEditor can not be hidden on initial page load. If placing within a TabPanel, please ensure the correct .ActiveTabIndex is set. If placing within a Window, please ensure InitHidden is 'false'.
             </summary>
@@ -43383,16 +42250,7 @@
         </member>
         <member name="T:Ext.Net.FieldSet">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Standard content Container used for grouping form fields.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.FieldSet.#ctor(Ext.Net.FieldSet.Config)">
@@ -43549,15 +42407,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.DropDownField.#ctor(Ext.Net.DropDownField.Config)">
             <summary>
@@ -43651,45 +42500,21 @@
         </member>
         <member name="T:Ext.Net.CheckboxSelectionModel">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A custom selection model that renders a column of checkboxes that can be toggled to select or deselect rows.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.RowSelectionModel">
-            <summary>
-            
-            </summary>
             <summary>
             The default SelectionModel used by Ext.grid.GridPanel. It supports multiple
             selections and keyboard selection/navigation. The objects stored as selections
             and returned by getSelected, and getSelections are the Records which provide
             the data for the selected rows.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.AbstractSelectionModel">
             <summary>
-            
-            </summary>
-            <summary>
             Abstract base class for grid SelectionModels. It provides the interface that should
             be implemented by descendant classes. This class should not be directly instantiated.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.AbstractSelectionModel.UpdateSelection">
@@ -44357,17 +43182,6 @@
             Selection Mode
             </summary>
         </member>
-        <member name="T:Ext.Net.CheckboxBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.CheckboxBase.SetBoxLabel(System.String)">
             <summary>
             
@@ -44547,15 +43361,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CellSelectionModel">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
              <summary>
              This class provides the basic implementation for single cell selection in a grid.
              The object stored as the selection and returned by getSelectedCell contains the following properties:
@@ -44725,9 +43530,6 @@
         </member>
         <member name="T:Ext.Net.ToolbarDroppable">
             <summary>
-            
-            </summary>
-            <summary>
             Plugin which allows items to be dropped onto a toolbar and be turned into new Toolbar items. To use the plugin, you just need to provide a createItem implementation that takes the drop data as an argument and returns an object that can be placed onto the toolbar.
             </summary>
         </member>
@@ -44831,9 +43633,6 @@
         </member>
         <member name="T:Ext.Net.RestUrls">
             <summary>
-            
-            </summary>
-            <summary>
             Specific urls to call on REST action methods "read", "create", "update" and "destroy"
             </summary>
         </member>
@@ -44911,9 +43710,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.PanelResizerDirectEvents.ConfigOptions">
             <summary>
@@ -44931,16 +43727,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.PanelResizerDirectEvents.DragEnd">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.MonthViewListeners">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.CalendarViewListeners">
             <summary>
             
             </summary>
@@ -45029,14 +43815,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BoxLayoutConfig">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -45101,15 +43881,7 @@
             Controls how the child items of the container are aligned. 
             </summary>
         </member>
-        <member name="T:Ext.Net.EventEditWindowDirectEvents">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:Ext.Net.WindowDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -45173,9 +43945,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CheckboxGroupListeners.ConfigOptions">
             <summary>
@@ -45188,15 +43957,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.StatusBar">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             Basic status bar component that can be used as the bottom toolbar of any Ext.Panel.
             </summary>
@@ -45581,15 +44341,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ImageCommandBase.CommandName">
             <summary>
@@ -45745,15 +44496,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.DesktopModule.ToBuilder">
             <summary>
@@ -45879,9 +44621,6 @@
             <summary>
             Defined {CRUD action}:{HTTP method} pairs to associate HTTP methods with the corresponding actions for RESTful proxies.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.RestActions.ToScript(System.Web.UI.Control)">
             <summary>
@@ -45921,9 +44660,6 @@
         <member name="T:Ext.Net.ToolbarReorderer">
             <summary>
             Plugin which can be attached to any Ext.Toolbar instance. Provides ability to reorder toolbar items with drag and drop.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="P:Ext.Net.ToolbarReorderer.Resources">
@@ -46002,9 +44738,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CalendarPanelListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -46195,9 +44928,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ImageDirectEvents.Complete">
             <summary>
@@ -46243,9 +44973,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DragTrackerDirectEvents.Drag">
             <summary>
@@ -46285,15 +45012,6 @@
         <member name="T:Ext.Net.TableLayout">
             <summary>
             This layout allows you to easily render content into an HTML table. The total number of columns can be specified, and rowspan and colspan can be used to create complex layouts within the table.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TableLayout.#ctor">
@@ -46412,15 +45130,6 @@
         <member name="T:Ext.Net.BorderLayout">
             <summary>
             This is a multi-pane, application-oriented UI layout style that supports multiple nested panels, automatic split bars between regions and built-in expanding and collapsing of regions.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.BorderLayout.#ctor">
@@ -47007,26 +45716,8 @@
             <summary>
             This class represents the primary interface of a component based grid control.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.GridPanelBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -47948,12 +46639,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Parameter.#ctor">
             <summary>
@@ -48031,15 +46716,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CommandColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -48185,17 +46861,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GridCommandCollection">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.FieldTrigger">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -48723,15 +47388,6 @@
         </member>
         <member name="T:Ext.Net.TextField">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Basic text field. Can be used as a direct replacement for traditional text inputs, or as the base class for more sophisticated input controls (like Ext.form.TextArea and Ext.form.ComboBox).
             </summary>
         </member>
@@ -48832,16 +47488,7 @@
         </member>
         <member name="T:Ext.Net.SpinnerField">
             <summary>
-            
-            </summary>
-            <summary>
             Spinner Field
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.SpinnerField.#ctor">
@@ -49090,16 +47737,7 @@
         </member>
         <member name="T:Ext.Net.RowLayout">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             This is the layout style of choice for creating structural layouts in a multi-row format where the height of each row can be specified as a percentage or fixed height.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.RowLayout.#ctor(Ext.Net.RowLayout.Config)">
@@ -49236,9 +47874,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.MultiSelectListeners.ConfigOptions">
             <summary>
@@ -49266,15 +47901,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.HttpProxy">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
              <summary>
              An implementation of DataProxy that reads a data object from a object configured to reference a certain URL.
              
@@ -49289,16 +47915,7 @@
         </member>
         <member name="T:Ext.Net.DataProxy">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             This class is an abstract base class for implementations which provide retrieval of unformatted data objects.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="P:Ext.Net.DataProxy.Listeners">
@@ -49511,9 +48128,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Fx.Serialize">
             <summary>
@@ -49554,9 +48168,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.FormPanelDirectEvents.ConfigOptions">
             <summary>
@@ -49587,9 +48198,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.FileUploadFieldListeners.ConfigOptions">
             <summary>
@@ -49602,15 +48210,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CheckColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -49714,9 +48313,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.BooleanFilter.SetValue(System.Nullable{System.Boolean})">
             <summary>
@@ -49756,9 +48352,6 @@
         <member name="T:Ext.Net.MultiSelectionModel">
             <summary>
             Multi selection for a TreePanel.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.AbstractTreeSelectionModel">
@@ -49816,11 +48409,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.MultiSelectionModel.ConfigOptions">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.MessageBoxConfig">
             <summary>
             
             </summary>
@@ -50017,15 +48605,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.CommandSpacer.#ctor">
             <summary>
@@ -50196,9 +48775,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.RowEditorListeners.AfterEdit">
             <summary>
@@ -50234,9 +48810,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DateFieldListeners.Select">
             <summary>
@@ -50249,9 +48822,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.FlashComponentListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -50280,9 +48850,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CheckboxDirectEvents.ConfigOptions">
             <summary>
@@ -50295,9 +48862,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.PortalDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -50341,17 +48905,11 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ObservableDirectEvent">
             <summary>
             
             </summary>    
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ObservableDirectEvent.Clear">
             <summary>
@@ -50359,9 +48917,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.ObservableDirectEvent.After">
-            <new date="2010-01-26" owner="geoff" key="DirectEvent">
-            The .After handler is called immediately after the DirectEvent is fired and before the response is returned from the server.
-            </new>
             <summary>
             After handler with params: el, extraParams. Called immediately after DirectEvent has been requested.
             </summary>
@@ -50467,9 +49022,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CellSelectionModelDirectEvents.BeforeCellSelect">
             <summary>
@@ -50492,15 +49044,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.StartMenuConfig">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -50714,26 +49257,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Radio">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             Single radio field. Can be used as a direct replacement for traditional Radio controls.
             </summary>
@@ -50975,15 +49500,6 @@
         </member>
         <member name="T:Ext.Net.NumberField">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Numeric text field that provides automatic keystroke filtering and numeric validation.
             </summary>
         </member>
@@ -51073,15 +49589,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TabStripItem">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -51364,9 +49871,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
             <typeparam name="T"></typeparam>
         </member>
         <member name="P:Ext.Net.GenericComponent`1.ConfigOptions">
@@ -51401,9 +49905,6 @@
         </member>
         <member name="T:Ext.Net.EventEditForm">
             <summary>
-            
-            </summary>
-            <summary>
             A custom form used for detailed editing of events.
             This is pretty much a standard form that is simply pre-configured for the options needed by the calendar components. 
             It is also configured to automatically bind records of type Ext.calendar.EventRecord to and from the form.
@@ -51412,9 +49913,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.EventEditFormBase">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -51508,9 +50006,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CheckboxGroupDirectEvents.ConfigOptions">
             <summary>
@@ -51523,15 +50018,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.XScript">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -51623,15 +50109,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ToolTip">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             A standard tooltip implementation for providing additional information when hovering over a target element.
             </summary>
@@ -51905,12 +50382,6 @@
         </member>
         <member name="T:Ext.Net.ScriptTagProxy">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             An implementation of DataProxy that reads a data object from a URL which
             may be in a domain other than the originating domain of the running page.
             
@@ -51927,9 +50398,6 @@
             passed as a parameter by the ScriptTagProxy. Below is a Java example for a
             servlet which returns data for either a ScriptTagProxy, or an HttpProxy
             depending on whether the callback name was passed:
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ScriptTagProxy.ToBuilder">
@@ -52063,16 +50531,7 @@
         </member>
         <member name="T:Ext.Net.RadioGroup">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A grouping container for Ext.form.Radio controls.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.RadioGroup.ToBuilder">
@@ -52265,16 +50724,7 @@
         </member>
         <member name="T:Ext.Net.DatePicker">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Simple DatePicker class.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.IDate">
@@ -52966,17 +51416,6 @@
             Server-side Ajax Event Handlers
             </summary>
         </member>
-        <member name="T:Ext.Net.BooleanColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.BooleanColumn.ToBuilder">
             <summary>
             
@@ -53058,15 +51497,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.LockingGridView">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -53471,9 +51901,11 @@
             </summary>
         </member>
         <member name="M:Ext.Net.Element.op_Implicit(System.Web.UI.Control)~Ext.Net.Element">
-            <new date="2010-01-04" owner="geoff" key="Element">
-            New WebControl to Element implicit conversion operator which enables direct cast of Control objects to Ext.Net.Element objects.
-            </new>
+            <summary>
+            
+            </summary>
+            <param name="control"></param>
+            <returns></returns>
         </member>
         <member name="M:Ext.Net.Element.#ctor(System.String)">
             <summary>
@@ -55819,9 +54251,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.PanelResizerListeners.DragStart">
             <summary>
@@ -55849,9 +54278,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ClickRepeaterListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -55895,9 +54321,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TabStripDirectEvents.BeforeTabChange">
             <summary>
@@ -55930,9 +54353,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.SpinnerDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -56240,15 +54660,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.XTemplate">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -56610,9 +55021,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.EditorCollection.Editor">
             <summary>
@@ -56645,9 +55053,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ProxyCollection">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -56700,15 +55105,6 @@
         <member name="T:Ext.Net.KeyMap">
             <summary>
             Handles mapping keys to actions for an element.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.KeyMap.#ctor">
@@ -56945,9 +55341,6 @@
         </member>
         <member name="T:Ext.Net.WaitConfig">
             <summary>
-            
-            </summary>
-            <summary>
             A config object containing any or all of the following properties. If this object is not specified the status will be cleared using the defaults.
             </summary>
         </member>
@@ -57000,9 +55393,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SliderListeners.ConfigOptions">
             <summary>
@@ -57041,18 +55431,12 @@
         </member>
         <member name="T:Ext.Net.SlideOut">
             <summary>
-            
-            </summary>
-            <summary>
             Slides the element out of view. An anchor point can be optionally passed to set the end point for the slide effect. When the effect is completed, the element will be hidden (visibility = 'hidden') but block elements will still take up space in the document. The element must be removed from the DOM using the 'remove' config option if desired. This function automatically handles wrapping the element with a fixed-size container if needed.
             </summary>
         </member>
         <member name="T:Ext.Net.SlideIn">
             <summary>
             Slides the element into view. An anchor point can be optionally passed to set the point of origin for the slide effect. This function automatically handles wrapping the element with a fixed-size container if needed. 
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.SlideIn.Serialize">
@@ -57092,9 +55476,6 @@
         </member>
         <member name="T:Ext.Net.Shift">
             <summary>
-            
-            </summary>
-            <summary>
             Animates the transition of any combination of an element's dimensions, xy position and/or opacity. Any of these properties not specified in the config object will not be changed. This effect requires that at least one new dimension, position or opacity setting must be passed in on the config object in order for the function to have any effect. 
             </summary>
         </member>
@@ -57109,9 +55490,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Scale">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -57148,18 +55526,9 @@
         </member>
         <member name="T:Ext.Net.RecordField">
             <summary>
-            
-            </summary>
-            <summary>
             The field definition object which specify field names, and optionally,
             data types, and a mapping for an Reader to extract the field's value
             from a data object.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.RecordField.#ctor">
@@ -57470,9 +55839,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.FileUploadFieldDirectEvents.ConfigOptions">
             <summary>
@@ -57486,16 +55852,7 @@
         </member>
         <member name="T:Ext.Net.FileUploadField">
             <summary>
-            
-            </summary>
-            <summary>
             File upload field
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.FileUploadField.#ctor">
@@ -57776,9 +56133,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.EventMask.ConfigOptions">
             <summary>
@@ -57806,15 +56160,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DesktopShortcut">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -57971,16 +56316,7 @@
         </member>
         <member name="T:Ext.Net.DateMenu">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A menu containing a Ext.menu.DateItem component (which provides a date picker).
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.DateMenu.#ctor(Ext.Net.DateMenu.Config)">
@@ -58105,16 +56441,7 @@
         </member>
         <member name="T:Ext.Net.DateField">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Provides a date input field with a DatePicker dropdown and automatic date validation.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.DateField.ToBuilder">
@@ -58646,22 +56973,13 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TreeNodeListeners">
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.NodeListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -58859,15 +57177,6 @@
             <summary>
             A Flash Component
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.FlashComponent.#ctor">
             <summary>
@@ -59048,12 +57357,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.PortalColumn.#ctor">
             <summary>
@@ -59124,9 +57427,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TreeSorter.CaseSensitive">
             <summary>
@@ -59168,12 +57468,6 @@
         <member name="T:Ext.Net.ToolbarFill">
             <summary>
             A simple element that adds a greedy (100% width) horizontal space between items in a toolbar.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ToolbarFill.#ctor">
@@ -59737,15 +58031,6 @@
             <summary>
             Base class for any Ext.BoxComponent that may contain other Components. Containers handle the basic behavior of containing items, namely adding, inserting and removing items.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Container.#ctor">
             <summary>
@@ -59841,9 +58126,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.WindowListeners.Maximize">
             <summary>
@@ -59869,14 +58151,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.GridPanelListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -60155,9 +58431,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.HtmlEditorListeners.ConfigOptions">
             <summary>
@@ -60218,9 +58491,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ColorPaletteListeners.Select">
             <summary>
@@ -60233,9 +58503,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DataViewDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -61326,9 +59593,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Box.Serialize">
             <summary>
@@ -61371,15 +59635,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TabScrollerMenu">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -61503,15 +59758,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ReferenceColumn.#ctor(Ext.Net.ReferenceColumn.Config)">
             <summary>
@@ -61600,12 +59846,6 @@
         </member>
         <member name="T:Ext.Net.LinkButton">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Simple LinkButton class
             </summary>
         </member>
@@ -61675,15 +59915,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DateColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -61774,15 +60005,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CommandMenu">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -61996,15 +60218,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.BoxItem.#ctor(Ext.Net.BoxItem.Config)">
             <summary>
@@ -62111,27 +60324,12 @@
         </member>
         <member name="T:Ext.Net.AbsoluteLayout">
             <summary>
-            
-            </summary>
-            <summary>
             This layout adds the ability for x/y positioning using the standard x and y component config options.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.AnchorLayout">
             <summary>
             This is a layout that enables anchoring of contained elements relative to the container's dimensions. If the container is resized, all anchored items are automatically rerendered according to their anchor rules.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.AnchorLayout.#ctor">
@@ -62325,20 +60523,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.TreeGridColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -62559,9 +60745,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.MouseDistanceSensorDirectEvents.ConfigOptions">
             <summary>
@@ -62584,9 +60767,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ImageListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -62635,9 +60815,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DropDownFieldDirectEvents.ConfigOptions">
             <summary>
@@ -62656,16 +60833,7 @@
         </member>
         <member name="T:Ext.Net.CompositeField">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Composite field allowing a number of form Fields to be rendered on the same row. The fields are rendered using an hbox layout internally, so all of the normal HBox layout config items are available.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.CompositeField.ToBuilder">
@@ -62904,16 +61072,7 @@
         </member>
         <member name="T:Ext.Net.VBoxLayout">
             <summary>
-            
-            </summary>
-            <summary>
             A layout that arranges items vertically
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.VBoxLayout.ToBuilder">
@@ -63003,16 +61162,7 @@
         </member>
         <member name="T:Ext.Net.TableGrid">
             <summary>
-            
-            </summary>
-            <summary>
             A Grid which creates itself from an existing HTML table element.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TableGrid.ToBuilder">
@@ -63166,15 +61316,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.MenuItemBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -63493,15 +61634,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.MultiSelectBase`1">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -63986,28 +62118,10 @@
         </member>
         <member name="T:Ext.Net.Image">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Basic image field.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="T:Ext.Net.ImageBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -64455,11 +62569,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.LayerConfig">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.LayerConfig.Serialize">
             <summary>
             
@@ -64535,11 +62644,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.GridFilterListeners">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.GridFilterListeners.Activate">
             <summary>
             Fires when an inactive filter becomes active
@@ -64588,15 +62692,6 @@
         <member name="T:Ext.Net.SliderField">
             <summary>
             Wraps a Slider so it can be used as a form field.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.SliderField.#ctor">
@@ -64685,9 +62780,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.MouseDistanceSensorListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -65091,15 +63183,6 @@
              Note that in order for the browser to parse a returned XML document, the Content-Type
              header in the HTTP response must be set to "text/xml".
              </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.XmlReader.#ctor">
             <summary>
@@ -65336,15 +63419,6 @@
         <member name="T:Ext.Net.CycleButton">
             <summary>
             A specialized SplitButton that contains a menu of Ext.menu.CheckItem elements. The button automatically cycles through each menu items on click, raising the button's change event (or calling the button's changeHandler function, if supplied) for the active menu items. Clicking on the arrow section of the button displays the dropdown menu just like a normal SplitButton.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.CycleButton.#ctor">
@@ -65598,9 +63672,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.NotificationAlignConfig.ElProxy">
             <summary>
@@ -65648,9 +63719,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.NotificationConfig">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -65853,9 +63921,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TabFx.ConfigOptions">
             <summary>
@@ -65884,16 +63949,7 @@
         </member>
         <member name="T:Ext.Net.Spotlight">
             <summary>
-            
-            </summary>
-            <summary>
             This control allows you to restrict input to a particular element by masking all other page content.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Spotlight.#ctor">
@@ -66043,11 +64099,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.SlidingPager">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.SlidingPager.ConfigOptions">
             <summary>
             
@@ -66069,9 +64120,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ResourceManagerListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -66125,9 +64173,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.PanelResizer.ConfigOptions">
             <summary>
@@ -66164,11 +64209,6 @@
             Server-side Ajax Event Handlers
             </summary>
         </member>
-        <member name="T:Ext.Net.MessageBoxButtonTextConfig">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.MessageBoxButtonTextConfig.ConfigOptions">
             <summary>
             
@@ -66196,9 +64236,6 @@
         </member>
         <member name="T:Ext.Net.FadeOut">
             <summary>
-            
-            </summary>
-            <summary>
             Fade an element out (from opaque to transparent). The ending opacity can be specified using the "endOpacity" config option. Note that IE may require useDisplay:true in order to redisplay correctly. 
             </summary>
         </member>
@@ -66213,9 +64250,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DataViewListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -66275,11 +64309,6 @@
             Fires when the selected nodes change.
             </summary>
         </member>
-        <member name="T:Ext.Net.DataProxyListeners">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.DataProxyListeners.ConfigOptions">
             <summary>
             
@@ -66314,15 +64343,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ColumnTreeColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -66466,9 +64486,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ColorPaletteDirectEvents.ConfigOptions">
             <summary>
@@ -66484,9 +64501,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ColorMenuListeners.ConfigOptions">
             <summary>
@@ -66499,9 +64513,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ButtonListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -66555,9 +64566,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.BaseMenuItemDirectEvents.ConfigOptions">
             <summary>
@@ -66580,9 +64588,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.AsyncTreeNode">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -66639,9 +64644,6 @@
             <summary>
             GridFilter is a plugin for grids that allow for a slightly more robust representation of filtering than what is provided by the default store.
             Filtering is adjusted by the user using the grid's column header menu (this menu can be disabled through configuration). Through this menu users can configure, enable, and disable filters for each column.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.GridFilters.OnInit(System.EventArgs)">
@@ -66777,20 +64779,8 @@
             <summary>
             ComboBox with multi item selection.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.ComboBoxBaseMulti`1">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -67011,14 +65001,8 @@
             By default, this class requires that child nodes accepting drop are registered with Ext.dd.Registry. However a simpler way to allow a DropZone to manage any number of target elements is to configure the DropZone with an implementation of getTargetFromEvent which interrogates the passed mouse event to see if it has taken place within an element, or class of elements. This is easily done by using the event's getTarget method to identify a node based on a Ext.DomQuery selector.
             Once the DropZone has detected through calling getTargetFromEvent, that the mouse is over a drop target, that target is passed as the first parameter to onNodeEnter, onNodeOver, onNodeOut, onNodeDrop. You may configure the instance of DropZone with implementations of these methods to provide application-specific behaviour for these events to update both application state, and UI state.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.DropTarget">
-            <summary>
-            
-            </summary>
             <summary>
             This class provides a container DD instance that allows dragging of multiple child source nodes.
             </summary>
@@ -67034,9 +65018,6 @@
                linked element: the element that is passed into the constructor. This is the element which defines the boundaries for interaction with other DragDrop objects.
                handle element(s): The drag operation only occurs if the element that was clicked matches a handle element. By default this is the linked element, but there are times that you will want only a portion of the linked element to initiate the drag operation, and the setHandleElId() method provides a way to define this.
                drag element: this represents the element that would be moved along with the cursor during a drag operation. By default, this is the linked element itself as in Ext.dd.DD. setDragElId() lets you define a separate element that would be moved, as in Ext.dd.DDProxy.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.DragDrop.ToScript(System.Web.UI.Control)">
@@ -67562,9 +65543,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.HtmlEditorDirectEvents.Blur">
             <summary>
@@ -67622,15 +65600,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TemplateColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -67711,15 +65680,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TabPanelBase">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -68339,12 +66299,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.FieldReplicator.#ctor(Ext.Net.FieldReplicator.Config)">
             <summary>
@@ -68420,16 +66374,7 @@
         </member>
         <member name="T:Ext.Net.CardLayout">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             This layout contains multiple panels, each fit to the content Container, where only a single panel can be visible at any given time. This layout style is most commonly used for wizards, tab implementations, etc. This class is intended to be extended or created via the layout:'card' Ext.Container.layout config, and should generally not need to be created directly via the new keyword.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.CardLayout.#ctor(Ext.Net.CardLayout.Config)">
@@ -68536,9 +66481,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.RadioGroupListeners.ConfigOptions">
             <summary>
@@ -68552,21 +66494,10 @@
         </member>
         <member name="T:Ext.Net.MonthView">
             <summary>
-            
-            </summary>
-            <summary>
             Displays a calendar view by month. This class does not usually need ot be used directly as you can use a CalendarPanel to manage multiple calendar views at once including the month view.
             </summary>
         </member>
-        <member name="T:Ext.Net.MonthViewBase">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:Ext.Net.CalendarView">
-            <summary>
-            
-            </summary>
             <summary>
             This is an abstract class that serves as the base for other calendar views. 
             This class is not intended to be directly instantiated.
@@ -68793,9 +66724,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.DirectResponse.#ctor">
             <summary>
@@ -68891,16 +66819,7 @@
         </member>
         <member name="T:Ext.Net.FormLayout">
             <summary>
-            
-            </summary>
-            <summary>
             This is a layout specifically designed for creating forms.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.FormLayout.ToBuilder">
@@ -69015,16 +66934,7 @@
         </member>
         <member name="T:Ext.Net.Checkbox">
             <summary>
-            
-            </summary>
-            <summary>
             Single checkbox field. Can be used as a direct replacement for traditional Checkbox controls.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Checkbox.ToBuilder">
@@ -69183,12 +67093,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.BottomTitle.#ctor">
             <summary>
@@ -69256,26 +67160,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ListView">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.DataView">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -69673,9 +67557,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.StoreCollection.Primary">
             <summary>
@@ -69703,16 +67584,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GroupCollection">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.MonthViewDirectEvents">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.CalendarViewDirectEvents">
             <summary>
             
             </summary>
@@ -69801,9 +67672,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.EventEditWindowBase.OnInit(System.EventArgs)">
             <summary>
@@ -69868,9 +67736,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GroupTabListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -70080,11 +67945,6 @@
             </summary>
         </member>
         <member name="M:Ext.Net.ItemCollectionJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.HandlerConfig">
             <summary>
             
             </summary>
@@ -70389,9 +68249,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TreeLoader.ConfigOptions">
             <summary>
@@ -70414,15 +68271,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.MenuPanel">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -70631,9 +68479,6 @@
             <summary>
             A config object containing any or all of the following properties. If this object is not specified the status will be cleared using the defaults.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.StatusBarStatusConfig.#ctor">
             <summary>
@@ -70727,9 +68572,6 @@
             <summary>
             A config object containing any or all of the following properties. If this object is not specified the status will be cleared using the defaults.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.StatusBarClearStatusConfig.#ctor">
             <summary>
@@ -70773,9 +68615,6 @@
         <member name="T:Ext.Net.StatusBarClearConfig">
             <summary>
             A config object containing any or all of the following properties. If this object is not specified the status will be cleared using the defaults.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.StatusBarClearConfig.#ctor">
@@ -70839,9 +68678,6 @@
             <summary>
             Fade an element in (from transparent to opaque). The ending opacity can be specified using the "endOpacity" config option. 
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.FadeIn.FxName">
             <summary>
@@ -70854,9 +68690,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.FadeOutConfig">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -70874,9 +68707,6 @@
         <member name="T:Ext.Net.Frame">
             <summary>
             Shows a ripple of exploding, attenuating borders to draw attention to an Element
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Frame.Serialize">
@@ -70913,9 +68743,6 @@
             <summary>
             Slides the element while fading it out of view. An anchor point can be optionally passed to set the ending point of the effect. 
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Ghost.Serialize">
             <summary>
@@ -70945,9 +68772,6 @@
         <member name="T:Ext.Net.Highlight">
             <summary>
             Highlights the Element by setting a color (applies to the background-color by default, but can be changed using the "attr" config option) and then fading back to the original color. If no original color is available, you should provide the "endColor" config option which will be cleared after the animation. 
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Highlight.Serialize">
@@ -70979,9 +68803,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.HighlightConfig.Attr">
             <summary>
@@ -71002,9 +68823,6 @@
             <summary>
             Fades the element out while slowly expanding it in all directions. When the effect is completed, the element will be hidden (visibility = 'hidden') but block elements will still take up space in the document. The element must be removed from the DOM using the 'remove' config option if desired. 
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.Puff.FxName">
             <summary>
@@ -71020,9 +68838,6 @@
             <summary>
             Blinks the element as if it was clicked and then collapses on its center (similar to switching off a television). When the effect is completed, the element will be hidden (visibility = 'hidden') but block elements will still take up space in the document. The element must be removed from the DOM using the 'remove' config option if desired.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SwitchOff.FxName">
             <summary>
@@ -71036,16 +68851,7 @@
         </member>
         <member name="T:Ext.Net.TimeField">
             <summary>
-            
-            </summary>
-            <summary>
             Provides a time input field with a time dropdown and automatic time validation.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TimeField.#ctor">
@@ -71373,9 +69179,6 @@
         </member>
         <member name="T:Ext.Net.SliderTip">
             <summary>
-            
-            </summary>
-            <summary>
             Simple plugin for using an Ext.Tip with a slider to show the slider value.
             </summary>
         </member>
@@ -71395,9 +69198,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.RowSelectionModelDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -71438,15 +69238,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ProgressBar">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             An updateable progress bar component. The progress bar supports two different modes: manual and automatic.
             </summary>
@@ -71691,15 +69482,6 @@
         </member>
         <member name="T:Ext.Net.DisplayField">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A display-only text field which is not validated and not submitted.
             </summary>
         </member>
@@ -71854,9 +69636,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DatePickerListeners.ConfigOptions">
             <summary>
@@ -71869,9 +69648,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DateFilter">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -71946,11 +69722,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.DataProxyDirectEvents">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.DataProxyDirectEvents.ConfigOptions">
             <summary>
             
@@ -72004,14 +69775,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.BaseMenuItemListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -72055,9 +69820,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CheckMenuItemDirectEvents.ConfigOptions">
             <summary>
@@ -72075,9 +69837,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.NumericFilter">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -72131,22 +69890,13 @@
             <summary>
             A simple class that provides the basic implementation needed to make any element draggable.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.DDProxy">
             <summary>
             A DragDrop implementation that inserts an empty, bordered div into the document that follows the cursor during drag operations. At the time of the click, the frame div is resized to the dimensions of the linked html element, and moved to the exact location of the linked element. References to the "frame" element refer to the single proxy element that was created to be dragged in place of all DDProxy elements on the page.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.DD">
-            <summary>
-            
-            </summary>
             <summary>
             A DragDrop implementation where the linked element follows the mouse cursor during a drag.
             </summary>
@@ -72386,22 +70136,10 @@
             <summary>
             Provides editor functionality for inline tree node editing. Any valid Ext.form.Field subclass can be used as the editor field.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.Editor">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A base editor field that handles displaying/hiding on demand and has some built-in sizing and event handling logic.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Editor.#ctor(Ext.Net.Editor.Config)">
@@ -72938,9 +70676,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TreeLoaderListeners.BeforeLoad">
             <summary>
@@ -72963,9 +70698,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TabPanelListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -73014,9 +70746,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GridViewListeners.BeforeRefresh">
             <summary>
@@ -73062,9 +70791,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ResourceManagerDirectEvents.DocumentReady">
             <summary>
@@ -73097,9 +70823,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CycleButtonDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -73256,15 +70979,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.RowNumbererColumn.#ctor(Ext.Net.RowNumbererColumn.Config)">
             <summary>
@@ -73362,15 +71076,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.MouseDistanceSensor">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -73557,15 +71262,6 @@
         </member>
         <member name="T:Ext.Net.MenuSeparator">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Adds a separator bar to a menu, used to divide logical groups of menu items. Generally you will add one of these by using \" - \" in you call to add() or in your items config rather than creating one directly.
             </summary>
         </member>
@@ -73688,9 +71384,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TabStripListeners.ConfigOptions">
             <summary>
@@ -73723,9 +71416,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Spinner">
-            <summary>
-            
-            </summary>
             <summary>
             Spinner plugin for the text field
             </summary>
@@ -73836,16 +71526,7 @@
         </member>
         <member name="T:Ext.Net.KeyNav">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Provides a convenient wrapper for normalized keyboard navigation. KeyNav allows you to bind navigation keys to function calls that will get called when the keys are pressed, providing an easy way to implement custom navigation schemes for any UI component.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.KeyNav.ToBuilder">
@@ -74123,15 +71804,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.HttpWriteProxy.ToBuilder">
             <summary>
@@ -74217,13 +71889,7 @@
         </member>
         <member name="T:Ext.Net.FitLayout">
             <summary>
-            
-            </summary>
-            <summary>
             This is a base class for layouts that contain a single items that automatically expands to fill the layout's content Container. This class is intended to be extended or created via the layout:'fit' Ext.Container.layout config, and should generally not need to be created directly via the new keyword. FitLayout does not have any direct config options (other than inherited ones). To fit a panel to a content Container using FitLayout, simply set layout:'fit' on the content Container and add a single panel to it. If the content Container has multiple panels, only the first one will be displayed.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.FitLayout.ToBuilder">
@@ -74293,16 +71959,7 @@
         </member>
         <member name="T:Ext.Net.ColumnLayout">
             <summary>
-            
-            </summary>
-            <summary>
             This is the layout style of choice for creating structural layouts in a multi-column format where the width of each column can be specified as a percentage or fixed width, but the height is allowed to vary based on the content. 
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ColumnLayout.ToBuilder">
@@ -74583,16 +72240,19 @@
             </summary>
         </member>
         <member name="M:Ext.Net.Extensions.ToElement(System.Web.UI.Control)">
-            <new date="2010-01-04" owner="geoff" key="Control">
-            Added new .ToElement() Extension Method to Control which enables the easy explicit conversion
-            of Control objects into Ext.Net.Element objects. Once converted into an Element, effect can be run against
-            the Element, including .Show(), .Hide() and many other Animations. Method chaining default is "true".
-            </new>
+            <summary>
+            
+            </summary>
+            <param name="self"></param>
+            <returns></returns>
         </member>
         <member name="M:Ext.Net.Extensions.ToElement(System.Web.UI.Control,System.Boolean)">
-            <new date="2010-01-30" owner="geoff" key="Control">
-            Added extra chaining parameter to .ToElement() Extension Method. Default is "true".
-            </new>
+            <summary>
+            
+            </summary>
+            <param name="self"></param>
+            <param name="chaining"></param>
+            <returns></returns>
         </member>
         <member name="M:Ext.Net.Extensions.Update(System.Web.UI.Control)">
             <summary>
@@ -74605,9 +72265,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreeGridNumberColumn">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -74651,9 +72308,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ToolbarReordererListeners.Reorder">
             <summary>
@@ -74666,9 +72320,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.RemoteValidationDirectEvent">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -74973,9 +72624,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ReaderCollection.Reader">
             <summary>
@@ -75063,12 +72711,6 @@
             <summary>
             This is a very simple layout style used to center contents within a container.
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.CenterLayout.#ctor">
             <summary>
@@ -75136,15 +72778,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.RowExpander">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -75441,9 +73074,6 @@
         </member>
         <member name="T:Ext.Net.TabCloseMenu">
             <summary>
-            
-            </summary>
-            <summary>
             Very simple plugin for adding a close context menu to tabs
             </summary>
         </member>
@@ -75528,15 +73158,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.PageProxy">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -75625,9 +73246,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.MultiSelectionModelDirectEvents.ConfigOptions">
             <summary>
@@ -75637,11 +73255,6 @@
         <member name="P:Ext.Net.MultiSelectionModelDirectEvents.SelectionChange">
             <summary>
             Fires when the selected nodes change
-            </summary>
-        </member>
-        <member name="T:Ext.Net.GroupTab">
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.GroupTab.OnTabChanged(System.EventArgs)">
@@ -75770,9 +73383,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DefaultSelectionModelListeners.ConfigOptions">
             <summary>
@@ -75790,9 +73400,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ColorMenuDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -75816,9 +73423,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CheckboxListeners.Check">
             <summary>
@@ -75836,9 +73440,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DateFieldDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -76060,15 +73661,6 @@
         </member>
         <member name="T:Ext.Net.MultiSelect">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A control that allows selection and form submission of multiple list items.
             </summary>
         </member>
@@ -76191,15 +73783,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.GridViewTemplates.#ctor(Ext.Net.GridViewTemplates.Config)">
             <summary>
@@ -76290,9 +73873,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.QTipCfg.ConfigOptions">
             <summary>
@@ -76344,15 +73924,7 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.LoadConfig">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:Ext.Net.BaseLoadConfig">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -76526,9 +74098,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.GridEditorOptions.Serialize">
             <summary>
@@ -76610,11 +74179,6 @@
             The offsets to use when aligning. Defaults to [0, 0].
             </summary>
         </member>
-        <member name="T:Ext.Net.EventEditWindowListeners">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.EventEditWindowListeners.ConfigOptions">
             <summary>
             
@@ -76651,15 +74215,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.SelectedRow">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -76783,9 +74338,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.FormLayoutConfig.#ctor(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)">
             <summary>
@@ -76828,14 +74380,18 @@
             </summary>
         </member>
         <member name="M:Ext.Net.Dom.op_Implicit(Ext.Net.Element)~Ext.Net.Dom">
-            <new date="2010-01-30" owner="geoff" key="Dom">
-            New Element to Dom object implicit conversion operator which enables direct cast of Element objects to Ext.Net.Dom objects.
-            </new>
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
         </member>
         <member name="M:Ext.Net.Dom.op_Implicit(System.Web.UI.Control)~Ext.Net.Dom">
-            <new date="2010-01-30" owner="geoff" key="Dom">
-            New Control to Dom object implicit conversion operator which enables direct cast of Control objects to Ext.Net.Dom objects.
-            </new>
+            <summary>
+            
+            </summary>
+            <param name="control"></param>
+            <returns></returns>
         </member>
         <member name="M:Ext.Net.Dom.#ctor(Ext.Net.Element)">
             <summary>
@@ -77042,9 +74598,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.MultiSelectionModelListeners.SelectionChange">
             <summary>
@@ -77057,9 +74610,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ToolbarReordererDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -77402,9 +74952,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.ToolbarCollection.#ctor">
             <summary>
@@ -77602,9 +75149,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SpinnerFieldListeners.ConfigOptions">
             <summary>
@@ -77627,9 +75171,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.PortalListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -77668,9 +75209,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.PagingToolbarDirectEvents.ConfigOptions">
             <summary>
@@ -77688,9 +75226,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.PageTreeLoader">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -77759,9 +75294,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.InlineEditorListeners.ConfigOptions">
             <summary>
@@ -77802,9 +75334,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.HistoryDirectEvents.ConfigOptions">
             <summary>
@@ -77818,16 +75347,7 @@
         </member>
         <member name="T:Ext.Net.ComponentMenuItem">
             <summary>
-            
-            </summary>
-            <summary>
             A menu item that wraps the choosen component.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ComponentMenuItem.#ctor">
@@ -77989,15 +75509,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.CommandSeparator.#ctor(Ext.Net.CommandSeparator.Config)">
             <summary>
@@ -78065,9 +75576,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CellSelectionModelListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -78148,9 +75656,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GroupTabPanel">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -78317,16 +75822,7 @@
         </member>
         <member name="T:Ext.Net.TextArea">
             <summary>
-            
-            </summary>
-            <summary>
             Multiline text field. Can be used as a direct replacement for traditional textarea &lt;asp:TextBox TextMode='MultiLine'> fields, plus adds support for auto-sizing.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TextArea.#ctor(Ext.Net.TextArea.Config)">
@@ -78487,16 +75983,7 @@
         </member>
         <member name="T:Ext.Net.SortInfo">
             <summary>
-            
-            </summary>
-            <summary>
             A config object in the format: {field: 'fieldName', direction: 'ASC|DESC'}. The direction property is case-sensitive.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.SortInfo.#ctor(Ext.Net.SortInfo.Config)">
@@ -78606,9 +76093,6 @@
         </member>
         <member name="T:Ext.Net.EventEditWindow">
             <summary>
-            
-            </summary>
-            <summary>
             A custom window containing a basic edit form used for quick editing of events.
             This window also provides custom events specific to the calendar so that other calendar components 
             can be easily notified when an event has been edited via this component.
@@ -78645,15 +76129,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ObjectHolder">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -78771,9 +76246,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ListViewBooleanColumn.XType">
             <summary>
@@ -78804,9 +76276,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DropDownFieldListeners.Collapse">
             <summary>
@@ -78824,9 +76293,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ClickRepeaterDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -79459,15 +76925,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.KeyBinding.#ctor">
             <summary>
@@ -79653,9 +77110,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.KeyListeners.Event">
             <summary>
@@ -79668,15 +77122,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ImageCommandColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -79862,9 +77307,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreePanelDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -80065,15 +77507,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Task">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -80303,11 +77736,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.StoreListeners">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.StoreListeners.ConfigOptions">
             <summary>
             
@@ -80397,9 +77825,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.RowSelectionModelListeners.ConfigOptions">
             <summary>
@@ -80440,9 +77865,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ResizableListeners.ConfigOptions">
             <summary>
@@ -80461,16 +77883,7 @@
         </member>
         <member name="T:Ext.Net.Resizable">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             Applies drag handles to an element to make it resizable.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.Resizable.#ctor(Ext.Net.Resizable.Config)">
@@ -80995,9 +78408,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.MultiSelectDirectEvents.ConfigOptions">
             <summary>
@@ -81025,9 +78435,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.InlineEditorDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -81068,15 +78475,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GenericPlugin">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             A generic Plugin.
             </summary>
@@ -81185,9 +78583,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DirectEventConfirmation.ConfigOptions">
             <summary>
@@ -81233,9 +78628,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DesktopDirectEvents.ConfigOptions">
             <summary>
@@ -81259,16 +78651,7 @@
         </member>
         <member name="T:Ext.Net.ClickRepeater">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A wrapper class which can be applied to any element. Fires a "click" event while the mouse is pressed. The interval between firings may be specified in the config but defaults to 20 milliseconds. Optionally, a CSS class may be applied to the element during the time it is pressed.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.ClickRepeater.#ctor(Ext.Net.ClickRepeater.Config)">
@@ -81556,9 +78939,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.StringFilter.SetValue(System.String)">
             <summary>
@@ -81724,9 +79104,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DesktopListeners.ShortcutClick">
             <summary>
@@ -81749,9 +79126,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TabPanelDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -81800,9 +79174,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.DatePickerDirectEvents.Select">
             <summary>
@@ -81815,9 +79186,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.SpinnerFieldDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -81879,16 +79247,7 @@
         </member>
         <member name="T:Ext.Net.CheckMenuItem">
             <summary>
-            
-            </summary>
-            <summary>
             Adds a menu item that contains a checkbox by default, but can also be part of a radio group.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.CheckMenuItem.#ctor(Ext.Net.CheckMenuItem.Config)">
@@ -82089,11 +79448,6 @@
             Set the checked state of this item.
             </summary>
         </member>
-        <member name="T:Ext.Net.RatingColumn">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.RatingColumn.#ctor">
             <summary>
             
@@ -82160,9 +79514,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GroupTabDirectEvents.ConfigOptions">
             <summary>
@@ -82195,9 +79546,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DayView">
-            <summary>
-            
-            </summary>
             <summary>
             Unlike other calendar views, is not actually a subclass of CalendarView. 
             Instead it is a Container subclass that internally creates and manages 
@@ -82305,9 +79653,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.CalendarPanelDirectEvents.ConfigOptions">
             <summary>
@@ -82395,15 +79740,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.StartButtonConfig">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -82514,15 +79850,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.CheckboxColumn">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -82844,9 +80171,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.RadioGroupDirectEvents.Change">
             <summary>
@@ -82928,6 +80252,17 @@
             Convenience wrappers for Json.NET
             </summary>
         </member>
+        <member name="M:Ext.Net.JSON.Serialize(System.Object,Newtonsoft.Json.Formatting,System.Collections.Generic.List{Newtonsoft.Json.JsonConverter},System.Boolean,Newtonsoft.Json.Serialization.IContractResolver)">
+            <summary>
+            Serializes the specified object to a Json object.
+            </summary>
+            <param name="obj">The object to serialize.</param>
+            <param name="formatting">Format the JSON serialized string.</param>
+            <param name="converters">A List of JsonConverter objects to customize serialization.</param>
+            <param name="quoteName">Gets or Sets a value indicating whether object names will be surrounded with quotes.</param>
+            <param name="resolver">The IContractResolver object to customize serialization.</param>
+            <returns>A Json string representation of the object.</returns>
+        </member>
         <member name="M:Ext.Net.JSON.Serialize(System.Object,System.Collections.Generic.List{Newtonsoft.Json.JsonConverter},System.Boolean,Newtonsoft.Json.Serialization.IContractResolver)">
             <summary>
             Serializes the specified object to a Json object.
@@ -82954,6 +80289,14 @@
             </summary>
             <param name="obj">The object to serialize.</param>
             <param name="converters">A List of JsonConverter objects to customize serialization.</param>
+            <returns>A Json string representation of the object.</returns>
+        </member>
+        <member name="M:Ext.Net.JSON.Serialize(System.Object,System.Boolean)">
+            <summary>
+            Serializes the specified object to a Json object.
+            </summary>
+            <param name="obj">The object to serialize.</param>
+            <param name="formatting">Format the serialized JSON string.</param>
             <returns>A Json string representation of the object.</returns>
         </member>
         <member name="M:Ext.Net.JSON.Serialize(System.Object)">
@@ -83127,9 +80470,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.Renderer.#ctor">
             <summary>
@@ -83219,15 +80559,6 @@
         <member name="T:Ext.Net.HyperLink">
             <summary>
             Basic hyperlink field.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.HyperLink.#ctor">
@@ -83373,16 +80704,7 @@
         </member>
         <member name="T:Ext.Net.TabPanel">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A basic tab content Container. Tab panels can be used exactly like a standard Ext.Panel for layout purposes, but also have special support for containing child Panels that get automatically converted into tabs.
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.TabPanel.#ctor(Ext.Net.TabPanel.Config)">
@@ -83518,15 +80840,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.SelectedListItem.#ctor(Ext.Net.SelectedListItem.Config)">
             <summary>
@@ -83647,9 +80960,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GroupingSummaryColumn.ConfigOptions">
             <summary>
@@ -83672,9 +80982,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DragZone">
-            <summary>
-            
-            </summary>
             <summary>
             This class provides a container DD instance that allows dragging of multiple child source nodes.
             This class does not move the drag target nodes, but a proxy element which may contain any DOM structure you wish. The DOM element to show in the proxy is provided by either a provided implementation of getDragData, or by registered draggables registered with Ext.dd.Registry
@@ -83726,9 +81033,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.DragDropGroup.#ctor">
             <summary>
@@ -83761,9 +81065,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DatePickerOptions">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -83847,14 +81148,8 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="T:Ext.Net.SplitButtonListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -83928,9 +81223,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.PagingToolbarListeners.Change">
             <summary>
@@ -83948,9 +81240,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreePanelListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -84154,9 +81443,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.GridViewDirectEvents.BeforeRefresh">
             <summary>
@@ -84352,9 +81638,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.VBoxLayoutConfig.#ctor(Ext.Net.VBoxAlign,System.String,System.String,Ext.Net.BoxPack,System.Int32,System.Boolean,System.String)">
             <summary>
@@ -84456,9 +81739,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.EventEditFormDirectEvents.ConfigOptionsExtraction">
             <summary>
@@ -84491,9 +81771,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.EventStore">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -84640,9 +81917,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.UpdateOptions">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -84805,15 +82079,6 @@
         <member name="T:Ext.Net.PropertyGrid">
             <summary>
             A specialized grid implementation intended to mimic the traditional property grid as typically seen in development IDEs. Each row in the grid represents a property of some object, and the data is stored as a set of name/value pairs
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.PropertyGrid.#ctor">
@@ -85052,9 +82317,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TreeSubmitConfig.ConfigOptions">
             <summary>
@@ -85097,11 +82359,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.TreeSubmitConfig.IsDefault">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Ext.Net.StoreDirectEvents">
             <summary>
             
             </summary>
@@ -85195,9 +82452,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ProgressBarListeners.ConfigOptions">
             <summary>
@@ -85212,15 +82466,6 @@
         <member name="T:Ext.Net.HBoxLayout">
             <summary>
             A layout that arranges items horizontally
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.HBoxLayout.#ctor">
@@ -85322,9 +82567,6 @@
             <summary>
             The default single selection for a TreePanel.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.DefaultSelectionModel.ClearSelections">
             <summary>
@@ -85378,9 +82620,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.RowExpanderListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -85456,9 +82695,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.FlashComponentDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -85560,15 +82796,6 @@
         </member>
         <member name="T:Ext.Net.MenuItem">
             <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
             A base class for all menu items that require menu-related functionality (like sub-menus) and are not static display items. Item extends the base functionality of Ext.menu.BaseItem by adding menu-specific activation and click handling.
             </summary>
         </member>
@@ -85669,15 +82896,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.HeaderRow">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -85788,16 +83006,7 @@
         </member>
         <member name="T:Ext.Net.BorderLayoutRegion">
             <summary>
-            
-            </summary>
-            <summary>
             This is a region of a BorderLayout that acts as a subcontainer within the layout. Each region has its own layout that is independent of other regions and the containing BorderLayout, and can be any of the valid Ext layout types.
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
             </summary>
         </member>
         <member name="M:Ext.Net.BorderLayoutRegion.ToBuilder">
@@ -86178,9 +83387,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.AnchorSize.#ctor(System.Web.UI.WebControls.Unit,System.Web.UI.WebControls.Unit)">
             <summary>
@@ -86213,9 +83419,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.HeaderGroupColumn">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -86256,9 +83459,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.HeaderGroupRow">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -86517,9 +83717,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.MenuCollection.#ctor">
             <summary>
@@ -86582,9 +83779,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreeNodeUIProvider">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -86736,15 +83930,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.Desktop">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -87105,9 +84290,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.DragTracker.Destroy">
             <summary>
@@ -87276,9 +84458,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.DragTrackerListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -87697,9 +84876,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.SliderDirectEvents.ConfigOptions">
             <summary>
@@ -87736,11 +84912,6 @@
             Fires after a drag operation has started.
             </summary>
         </member>
-        <member name="T:Ext.Net.ProgressBarPager">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.ProgressBarPager.ConfigOptions">
             <summary>
             
@@ -87767,9 +84938,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ColumnListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -87833,9 +85001,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.CardLayoutConfig.#ctor">
             <summary>
@@ -87863,15 +85028,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GroupImageCommand">
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -87960,9 +85116,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.RowLayoutConfig.#ctor(System.Boolean,System.Int32,System.Boolean,System.Boolean,System.String)">
             <summary>
@@ -87995,9 +85148,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.GroupTabPanelDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -88451,9 +85601,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.ResizableDirectEvents.ConfigOptions">
             <summary>
@@ -88494,9 +85641,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.FormPanelListeners.ClientValidation">
             <summary>
@@ -88524,9 +85668,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.PropertyGridDirectEvents">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -88691,11 +85832,6 @@
             
             </summary>
         </member>
-        <member name="T:Ext.Net.GridFiltersListeners">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:Ext.Net.GridFiltersListeners.ConfigOptions">
             <summary>
             
@@ -88707,9 +85843,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.ListViewNumberColumn">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -89192,9 +86325,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TreeDropZone">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -89843,9 +86973,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="P:Ext.Net.TreeGridBooleanColumn.ConfigOptions">
             <summary>
@@ -89873,9 +87000,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.EventEditFormListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -89929,9 +87053,6 @@
             <summary>
             Displays a calendar view by week. This class does not usually need ot be used directly as you can use a CalendarPanel to manage multiple calendar views at once including the week view.
             </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.WeekView.#ctor">
             <summary>
@@ -89984,9 +87105,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.SpinnerListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>
@@ -90534,12 +87652,6 @@
             <summary>
             
             </summary>
-            <summary>
-            
-            </summary>
-            <summary>
-            
-            </summary>
         </member>
         <member name="M:Ext.Net.MonthPicker.#ctor(Ext.Net.MonthPicker.Config)">
             <summary>
@@ -90696,16 +87808,6 @@
             
             </summary>
         </member>
-        <member name="M:Ext.Net.WindowActionList.AddPadding">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Ext.Net.WindowActionList.RemovePadding">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:Ext.Net.WindowActionList.GetSortedActionItems">
             <summary>
             
@@ -90777,11 +87879,6 @@
             </summary>
         </member>
         <member name="P:Ext.Net.WindowActionList.PageY">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:Ext.Net.WindowActionList.BodyStyle">
             <summary>
             
             </summary>
@@ -90887,9 +87984,6 @@
             </summary>
         </member>
         <member name="T:Ext.Net.TaskListeners">
-            <summary>
-            
-            </summary>
             <summary>
             
             </summary>

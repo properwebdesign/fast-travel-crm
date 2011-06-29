@@ -18,17 +18,41 @@
             <param name="input">compressed string</param>
             <returns>Inflated string</returns>
         </member>
-        <member name="M:Ext.Net.Utilities.StringUtils.MakeEventName(System.String)">
+        <member name="T:Ext.Net.Utilities.StringUtils">
             <summary>
             
             </summary>
-            <param name="name"></param>
-            <returns></returns>
+        </member>
+        <member name="M:Ext.Net.Utilities.StringUtils.Replace(System.String,System.String[],System.String)">
+            <summary>
+            Replaces all occurrences of System.String in the oldValues String Array, with
+            another specified System.String of newValue.
+            </summary>
+            <param name="instance">this string</param>
+            <param name="oldValues">An Array of String objects to be replaced.</param>
+            <param name="newValue">The new value to replace old values.</param>
+            <returns>
+            The modified original string.
+            </returns>
+        </member>
+        <member name="M:Ext.Net.Utilities.StringUtils.Replace(System.String,System.String[],System.Func{System.String,System.String})">
+            <summary>
+            Replaces all occurrences of System.String in the oldValue String Array, with the
+            return String value of the specified Function convert.
+            </summary>
+            <param name="instance">this string</param>
+            <param name="oldValues">An Array of String objects to be replaced.</param>
+            <param name="convert">The Function to convert the found old value.</param>
+            <returns>
+            The modified original string.
+            </returns>
         </member>
         <member name="M:Ext.Net.Utilities.StringUtils.FormatWith(System.String,System.Object[])">
             <summary>
-            Format the string with the args.
+            Format the string with the arguments (args parameter).
             </summary>
+            <param name="format"></param>
+            <param name="args"></param>
         </member>
         <member name="M:Ext.Net.Utilities.StringUtils.FormatWith(System.String,System.IFormatProvider,System.Object[])">
             <summary>
@@ -37,7 +61,6 @@
             <param name="format"></param>
             <param name="provider"></param>
             <param name="args"></param>
-            <returns></returns>
         </member>
         <member name="M:Ext.Net.Utilities.StringUtils.FormatWith(System.String,System.Object)">
             <summary>
@@ -67,7 +90,7 @@
         </member>
         <member name="M:Ext.Net.Utilities.StringUtils.ConcatWith(System.String,System.String)">
             <summary>
-            Add the text string to the source string.
+            Add the args strings the source text string.
             </summary>
         </member>
         <member name="M:Ext.Net.Utilities.StringUtils.ConcatWith(System.String,System.Object[])">
